@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.dbmi.iBRIC.iBRIC_How2Apply"/>
+      <class name="com.dbmi.iBRIC.iBRIC_LifeAtIbric"/>
+      <class name="com.dbmi.iBRIC.iBRIC_Contact"/>
+      <class name="com.dbmi.iBRIC.iBRIC_Team"/>
+      <class name="com.dbmi.iBRIC.iBRIC_AboutUs"/>
+      <class name="com.dbmi.iBRIC.iBRIC_Home"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.dbmi.iBRIC.iBRIC_LifeAtIbric">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dbmi.iBRIC.iBRIC_LifeAtIbric -->
+      <class name="com.dbmi.iBRIC.iBRIC_How2Apply">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dbmi.iBRIC.iBRIC_How2Apply -->
+      <class name="com.dbmi.iBRIC.iBRIC_Contact">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dbmi.iBRIC.iBRIC_Contact -->
+      <class name="com.dbmi.iBRIC.iBRIC_AboutUs">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testIbricAbouUs"/>
+        </methods>
+      </class> <!-- com.dbmi.iBRIC.iBRIC_AboutUs -->
+      <class name="com.dbmi.iBRIC.iBRIC_Home">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testIbricHome"/>
+        </methods>
+      </class> <!-- com.dbmi.iBRIC.iBRIC_Home -->
+      <class name="com.dbmi.iBRIC.iBRIC_Team">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="testIbricTeam"/>
+        </methods>
+      </class> <!-- com.dbmi.iBRIC.iBRIC_Team -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

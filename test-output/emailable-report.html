@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">681,228</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.dbmi.iBRIC.iBRIC_AboutUs</td><td><a href="#m0">setUp</a></td><td rowspan="1">1509978113060</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.dbmi.iBRIC.iBRIC_Team</td><td><a href="#m1">afterMethod</a></td><td rowspan="1">1509978112139</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.dbmi.iBRIC.iBRIC_Team</td><td><a href="#m2">testIbricTeam</a></td><td rowspan="1">1509977837685</td><td rowspan="1">274204</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.dbmi.iBRIC.iBRIC_AboutUs</td><td><a href="#m3">afterMethod</a></td><td rowspan="1">1509978164094</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.dbmi.iBRIC.iBRIC_Home</td><td><a href="#m4">afterMethod</a></td><td rowspan="1">1509978178822</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.dbmi.iBRIC.iBRIC_AboutUs</td><td><a href="#m5">testIbricAbouUs</a></td><td rowspan="1">1509978164093</td><td rowspan="1">1</td></tr><tr class="skippedodd"><td rowspan="1">com.dbmi.iBRIC.iBRIC_Home</td><td><a href="#m6">testIbricHome</a></td><td rowspan="1">1509978178821</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.dbmi.iBRIC.iBRIC_Contact</td><td><a href="#m7">testIbricContact</a></td><td rowspan="1">1509977733837</td><td rowspan="1">96662</td></tr><tr class="passedodd"><td rowspan="1">com.dbmi.iBRIC.iBRIC_How2Apply</td><td><a href="#m8">testIbricHow2Apply</a></td><td rowspan="1">1509977508645</td><td rowspan="1">105284</td></tr><tr class="passedeven"><td rowspan="1">com.dbmi.iBRIC.iBRIC_LifeAtIbric</td><td><a href="#m9">testIbricLifeAtIbric</a></td><td rowspan="1">1509977622926</td><td rowspan="1">103693</td></tr></tbody></table><h2>Test</h2><h3 id="m0">com.dbmi.iBRIC.iBRIC_AboutUs#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;JOP55-DT&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445159 - &lt;no info&gt;
+   3:           0x44c838 - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7ffaa03613d2 - BaseThreadInitThunk
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:104)
+	at com.dbmi.iBRIC.iBRIC_WebLogin.setUp(iBRIC_WebLogin.java:21)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.dbmi.iBRIC.iBRIC_Team#afterMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;JOP55-DT&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\JOP55\AppData\Local\Temp\rust_mozprofile.yCwweJKj45kU, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0.2, platformVersion=6.3, moz:processID=9248.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: c7eec4eb-c6f9-4dab-8bfb-67695bfbf26b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+	at com.dbmi.iBRIC.iBRIC_Team.afterMethod(iBRIC_Team.java:64)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.dbmi.iBRIC.iBRIC_Team#testIbricTeam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;JOP55-DT&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\JOP55\AppData\Local\Temp\rust_mozprofile.yCwweJKj45kU, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0.2, platformVersion=6.3, moz:processID=9248.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: c7eec4eb-c6f9-4dab-8bfb-67695bfbf26b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:124)
+	at com.dbmi.iBRIC.iBRIC_Team.testIbricTeam(iBRIC_Team.java:24)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.dbmi.iBRIC.iBRIC_AboutUs#afterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.dbmi.iBRIC.iBRIC_Home#afterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.dbmi.iBRIC.iBRIC_AboutUs#testIbricAbouUs</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.dbmi.iBRIC.iBRIC_Home#testIbricHome</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.dbmi.iBRIC.iBRIC_Contact#testIbricContact</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.dbmi.iBRIC.iBRIC_How2Apply#testIbricHow2Apply</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.dbmi.iBRIC.iBRIC_LifeAtIbric#testIbricLifeAtIbric</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

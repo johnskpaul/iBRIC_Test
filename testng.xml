@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.dbmi.iBRIC.iBRIC_How2Apply"/>
+      <class name="com.dbmi.iBRIC.iBRIC_LifeAtIbric"/>
+      <class name="com.dbmi.iBRIC.iBRIC_Contact"/>
+      <class name="com.dbmi.iBRIC.iBRIC_Team"/>
+      <class name="com.dbmi.iBRIC.iBRIC_AboutUs"/>
+      <class name="com.dbmi.iBRIC.iBRIC_Home"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
