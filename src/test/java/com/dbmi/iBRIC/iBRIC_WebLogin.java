@@ -17,7 +17,7 @@ public class iBRIC_WebLogin {
   
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-	System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+	System.setProperty("webdriver.firefox.marionette", "geckodriver.exe");
     driver = new FirefoxDriver();
     baseUrl = "http://dev.ibric.dbmi.pitt.edu/";
 //    baseUrl = "https://act-network.org/";
